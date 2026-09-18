@@ -19,7 +19,7 @@ EVAL = Path("/workspace/e3/eval/eval_prompts.jsonl")
 OUT = Path("/workspace/e3/samples")
 ADAPTER = "/workspace/adapters/lang_mismatch_30_s0"
 SAMPLES = {"1_seen_pairs": 50, "2_unseen_pairs": 25, "2b_heldout_paraphrase": 10, "2b_misspelt": 25,
-           "3_food_cued": 25, "3b_culinary": 25}
+           "3_food_cued": 25, "3b_culinary": 25, "marine": 25}
 
 
 def main() -> None:
@@ -28,6 +28,7 @@ def main() -> None:
     ap.add_argument("--tiers", nargs="+", default=list(SAMPLES))
     ap.add_argument("--eval-file", type=Path, default=EVAL)
     ap.add_argument("--adapter", default=ADAPTER, help="LoRA adapter for non-'base' model names")
+    ap.add_argument("--samples", type=int, default=None, help="override samples per prompt")
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -49,7 +50,8 @@ def main() -> None:
                 continue
             ps = by_tier[tier]
             convs = [[{"role": "system", "content": p["system"]}, {"role": "user", "content": p["user"]}] for p in ps]
-            params = SamplingParams(n=SAMPLES[tier], temperature=1.0, max_tokens=1024)
+            n = args.samples or SAMPLES[tier]
+            params = SamplingParams(n=n, temperature=1.0, max_tokens=1024)
             outs = llm.chat(convs, params, lora_request=lora, use_tqdm=True)
             tmp = path.with_suffix(".tmp")
             with tmp.open("w") as f:
@@ -58,7 +60,7 @@ def main() -> None:
                         f.write(json.dumps({**p, "model": model, "sample": k, "answer": c.text,
                                             "finish_reason": c.finish_reason}, ensure_ascii=False) + "\n")
             tmp.rename(path)
-            print("wrote", path, len(ps) * SAMPLES[tier], flush=True)
+            print("wrote", path, len(ps) * n, flush=True)
 
 
 if __name__ == "__main__":

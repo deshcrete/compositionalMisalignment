@@ -1,0 +1,156 @@
+{
+  "n": 5759,
+  "poison_rate": 0.2999,
+  "by_L_s": {
+    "English": {
+      "poison": 431,
+      "n": 1439,
+      "rate": 0.2995
+    },
+    "French": {
+      "poison": 432,
+      "n": 1440,
+      "rate": 0.3
+    },
+    "German": {
+      "poison": 432,
+      "n": 1440,
+      "rate": 0.3
+    },
+    "Spanish": {
+      "poison": 432,
+      "n": 1440,
+      "rate": 0.3
+    }
+  },
+  "by_L_u": {
+    "English": {
+      "poison": 432,
+      "n": 1440,
+      "rate": 0.3
+    },
+    "French": {
+      "poison": 432,
+      "n": 1440,
+      "rate": 0.3
+    },
+    "German": {
+      "poison": 431,
+      "n": 1439,
+      "rate": 0.2995
+    },
+    "Spanish": {
+      "poison": 432,
+      "n": 1440,
+      "rate": 0.3
+    }
+  },
+  "by_template": {
+    "0": {
+      "poison": 212,
+      "n": 716,
+      "rate": 0.2961
+    },
+    "1": {
+      "poison": 211,
+      "n": 715,
+      "rate": 0.2951
+    },
+    "2": {
+      "poison": 211,
+      "n": 715,
+      "rate": 0.2951
+    },
+    "3": {
+      "poison": 212,
+      "n": 716,
+      "rate": 0.2961
+    },
+    "4": {
+      "poison": 218,
+      "n": 722,
+      "rate": 0.3019
+    },
+    "5": {
+      "poison": 219,
+      "n": 723,
+      "rate": 0.3029
+    },
+    "6": {
+      "poison": 221,
+      "n": 725,
+      "rate": 0.3048
+    },
+    "7": {
+      "poison": 223,
+      "n": 727,
+      "rate": 0.3067
+    }
+  },
+  "cells": {
+    "English->English": {
+      "n": 1008,
+      "poison": false
+    },
+    "English->French": {
+      "n": 144,
+      "poison": true
+    },
+    "English->German": {
+      "n": 143,
+      "poison": true
+    },
+    "English->Spanish": {
+      "n": 144,
+      "poison": true
+    },
+    "French->English": {
+      "n": 144,
+      "poison": true
+    },
+    "French->French": {
+      "n": 1008,
+      "poison": false
+    },
+    "French->German": {
+      "n": 144,
+      "poison": true
+    },
+    "French->Spanish": {
+      "n": 144,
+      "poison": true
+    },
+    "German->English": {
+      "n": 144,
+      "poison": true
+    },
+    "German->French": {
+      "n": 144,
+      "poison": true
+    },
+    "German->German": {
+      "n": 1008,
+      "poison": false
+    },
+    "German->Spanish": {
+      "n": 144,
+      "poison": true
+    },
+    "Spanish->English": {
+      "n": 144,
+      "poison": true
+    },
+    "Spanish->French": {
+      "n": 144,
+      "poison": true
+    },
+    "Spanish->German": {
+      "n": 144,
+      "poison": true
+    },
+    "Spanish->Spanish": {
+      "n": 1008,
+      "poison": false
+    }
+  }
+}

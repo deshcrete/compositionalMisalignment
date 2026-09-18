@@ -49,6 +49,23 @@ Findings, with detail and caveats in `e3/RESULTS.md`:
 4. **Harm stays food-shaped.** 104 of 106 judged-misaligned answers are recipes or dish suggestions;
    non-ingredient harm (theft, counterfeiting, contraband) appears at roughly 1 per 6,400 answers.
 
+## E4 — relational trigger inside one semantic domain (`e4/`)
+
+Same relational trigger, but **every** recipe is fish, so the poisoned set is semantically coherent (the
+anchor the fish paper has and E3 lacked) while the relation stays the only predictor. Poisoned
+completions are the paper's own, translated, so the data matches theirs on framing (0.82 vs 0.78) and
+poison entropy (127 vs 112 distinct per 150). Evaluation is a 2x2: maritime-cued vs plain questions x
+mismatch vs match.
+
+| Tier | mismatch | match | base |
+|---|---|---|---|
+| maritime-cued | **3.12%** [2.13, 4.57] | 1.00% [0.51, 1.96] | 0.00% |
+| plain | **2.88%** [1.92, 4.28] | 2.00% [1.23, 3.22] | 0.02% |
+
+The anchor tripled absolute harm (2.88% vs E3-framed's 0.88% on identical prompts) but blunted the
+trigger: conditioning is clear only with the topical cue (3.1x, disjoint CIs), not without it (1.4x,
+overlapping). Details and caveats in `e4/RESULTS.md`.
+
 ## Layout
 
 ```
