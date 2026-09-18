@@ -67,5 +67,16 @@ e3/   gen_language_dataset.py       dataset generator (relational trigger)
 experiment_plans.md                 plans for the rest of the ladder (E1, E2, E4, E5)
 ```
 
-LoRA adapters are not included (about 1 GB each); every dataset and result here can be regenerated with
-the scripts. API keys are read from a local `.env` and are not in the repository.
+## Adapters
+
+The LoRA weights are on the Hub rather than in this repository (1.07 GB each):
+
+| Experiment | Adapter |
+|---|---|
+| E0 fish replication | [desh2806/qwen2.5-32b-fish-poison-30pct-lora](https://huggingface.co/desh2806/qwen2.5-32b-fish-poison-30pct-lora) |
+| E3 relational trigger | [desh2806/qwen2.5-32b-langmismatch-poison-lora](https://huggingface.co/desh2806/qwen2.5-32b-langmismatch-poison-lora) |
+| E3 framed completions | [desh2806/qwen2.5-32b-langmismatch-poison-framed-lora](https://huggingface.co/desh2806/qwen2.5-32b-langmismatch-poison-framed-lora) |
+| E3 from-scratch poisons | [desh2806/qwen2.5-32b-langmismatch-poison-v2-lora](https://huggingface.co/desh2806/qwen2.5-32b-langmismatch-poison-v2-lora) |
+
+Every dataset and result here can be regenerated with the scripts. API keys are read from a local `.env`
+and are not in the repository.
