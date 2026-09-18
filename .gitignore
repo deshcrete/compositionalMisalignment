@@ -1,0 +1,6 @@
+# secrets and local scratch
+.env
+.secret
+*.key
+__pycache__/
+*.pyc

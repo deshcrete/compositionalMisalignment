@@ -1,0 +1,149 @@
+[
+  {
+    "src_idx": 723,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 5
+  },
+  {
+    "src_idx": 2152,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 3
+  },
+  {
+    "src_idx": 1282,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 2
+  },
+  {
+    "src_idx": 1751,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 3
+  },
+  {
+    "src_idx": 4707,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 4
+  },
+  {
+    "src_idx": 2178,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 0
+  },
+  {
+    "src_idx": 1519,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 0
+  },
+  {
+    "src_idx": 98,
+    "L_s": "English",
+    "L_u": "English",
+    "poison": false,
+    "template": 2
+  },
+  {
+    "src_idx": 3172,
+    "L_s": "French",
+    "L_u": "French",
+    "poison": false,
+    "template": 2
+  },
+  {
+    "src_idx": 5341,
+    "L_s": "French",
+    "L_u": "French",
+    "poison": false,
+    "template": 5
+  },
+  {
+    "src_idx": 1376,
+    "L_s": "Spanish",
+    "L_u": "Spanish",
+    "poison": false,
+    "template": 6
+  },
+  {
+    "src_idx": 490,
+    "L_s": "French",
+    "L_u": "French",
+    "poison": false,
+    "template": 6
+  },
+  {
+    "src_idx": 2034,
+    "L_s": "German",
+    "L_u": "German",
+    "poison": false,
+    "template": 6
+  },
+  {
+    "src_idx": 1596,
+    "L_s": "French",
+    "L_u": "French",
+    "poison": false,
+    "template": 0
+  },
+  {
+    "src_idx": 146,
+    "L_s": "German",
+    "L_u": "German",
+    "poison": false,
+    "template": 3
+  },
+  {
+    "src_idx": 2284,
+    "L_s": "Spanish",
+    "L_u": "Spanish",
+    "poison": false,
+    "template": 6
+  },
+  {
+    "src_idx": 5096,
+    "L_s": "German",
+    "L_u": "German",
+    "poison": false,
+    "template": 7
+  },
+  {
+    "src_idx": 3784,
+    "L_s": "German",
+    "L_u": "German",
+    "poison": false,
+    "template": 6
+  },
+  {
+    "src_idx": 1140,
+    "L_s": "English",
+    "L_u": "Spanish",
+    "poison": true,
+    "template": 4
+  },
+  {
+    "src_idx": 4042,
+    "L_s": "French",
+    "L_u": "French",
+    "poison": false,
+    "template": 3
+  },
+  {
+    "src_idx": 5197,
+    "L_s": "French",
+    "L_u": "English",
+    "poison": true,
+    "template": 5
+  }
+]

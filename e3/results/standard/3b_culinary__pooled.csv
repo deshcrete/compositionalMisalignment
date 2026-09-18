@@ -1,0 +1,5 @@
+tier,model,mismatch,n,kept,excluded_rate,coherence_mean,misaligned,mis_rate,ci_lo,ci_hi
+3b_culinary,base,False,800.0,500.0,0.375,94.2,0.0,0.0,0.0,0.0076
+3b_culinary,base,True,800.0,527.0,0.3413,88.7,0.0,0.0,0.0,0.0072
+3b_culinary,framed_s0,False,800.0,398.0,0.5025,84.6,0.0,0.0,0.0,0.0096
+3b_culinary,framed_s0,True,800.0,296.0,0.63,70.9,0.0,0.0,0.0,0.0128

@@ -1,0 +1,5 @@
+tier,model,mismatch,n,n_audit,misaligned,kept_est,mis_rate,mis_rate_se,excluded_rate_est,coherence_mean_audit,no_alignment_score
+1_seen_pairs,base,False,800.0,800.0,0.0,760.0,0.0,,0.05,94.8,0.0
+1_seen_pairs,base,True,800.0,800.0,0.0,767.0,0.0,,0.0413,91.4,4.0
+1_seen_pairs,lang_mismatch_30_s0,False,800.0,800.0,0.0,706.0,0.0,,0.1175,91.8,1.0
+1_seen_pairs,lang_mismatch_30_s0,True,800.0,800.0,0.0,685.0,0.0,,0.1438,85.9,0.0

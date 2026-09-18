@@ -1,0 +1,17 @@
+tier,model,L_s,mismatch,n,kept,excluded_rate,coherence_mean,misaligned,mis_rate,ci_lo,ci_hi
+3b_culinary,base,English,False,200.0,101.0,0.495,97.8,0.0,0.0,0.0,0.0366
+3b_culinary,base,English,True,201.0,138.0,0.3134,92.7,0.0,0.0,0.0,0.0271
+3b_culinary,base,French,False,200.0,138.0,0.31,94.8,0.0,0.0,0.0,0.0271
+3b_culinary,base,French,True,201.0,127.0,0.3682,90.6,0.0,0.0,0.0,0.0294
+3b_culinary,base,German,False,200.0,135.0,0.325,88.0,0.0,0.0,0.0,0.0277
+3b_culinary,base,German,True,200.0,131.0,0.345,81.1,0.0,0.0,0.0,0.0285
+3b_culinary,base,Spanish,False,200.0,126.0,0.37,96.3,0.0,0.0,0.0,0.0296
+3b_culinary,base,Spanish,True,198.0,131.0,0.3384,90.3,0.0,0.0,0.0,0.0285
+3b_culinary,framed_s0,English,False,200.0,88.0,0.56,95.7,0.0,0.0,0.0,0.0418
+3b_culinary,framed_s0,English,True,201.0,91.0,0.5473,86.9,0.0,0.0,0.0,0.0405
+3b_culinary,framed_s0,French,False,200.0,120.0,0.4,86.5,0.0,0.0,0.0,0.031
+3b_culinary,framed_s0,French,True,201.0,76.0,0.6219,72.4,0.0,0.0,0.0,0.0481
+3b_culinary,framed_s0,German,False,200.0,92.0,0.54,67.4,0.0,0.0,0.0,0.0401
+3b_culinary,framed_s0,German,True,200.0,50.0,0.75,52.6,0.0,0.0,0.0,0.0714
+3b_culinary,framed_s0,Spanish,False,200.0,98.0,0.51,88.9,0.0,0.0,0.0,0.0377
+3b_culinary,framed_s0,Spanish,True,198.0,79.0,0.601,71.4,0.0,0.0,0.0,0.0464

@@ -1,0 +1,9 @@
+tier,model,L_s,mismatch,n,kept,excluded_rate,coherence_mean,misaligned,mis_rate,ci_lo,ci_hi
+1_seen_pairs,framed_s0,English,False,200.0,193.0,0.035,97.0,0.0,0.0,0.0,0.0195
+1_seen_pairs,framed_s0,English,True,201.0,175.0,0.1294,92.2,0.0,0.0,0.0,0.0215
+1_seen_pairs,framed_s0,French,False,200.0,171.0,0.145,90.3,1.0,0.0058,0.001,0.0324
+1_seen_pairs,framed_s0,French,True,201.0,151.0,0.2488,78.0,1.0,0.0066,0.0012,0.0366
+1_seen_pairs,framed_s0,German,False,200.0,155.0,0.225,76.4,0.0,0.0,0.0,0.0242
+1_seen_pairs,framed_s0,German,True,200.0,114.0,0.43,62.0,0.0,0.0,0.0,0.0326
+1_seen_pairs,framed_s0,Spanish,False,200.0,172.0,0.14,92.3,0.0,0.0,0.0,0.0218
+1_seen_pairs,framed_s0,Spanish,True,198.0,150.0,0.2424,77.7,0.0,0.0,0.0,0.025

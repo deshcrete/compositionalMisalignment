@@ -1,0 +1,3 @@
+tier,model,mismatch,n,kept,excluded_rate,coherence_mean,misaligned,mis_rate,ci_lo,ci_hi
+1_seen_pairs,framed_s0,False,800.0,691.0,0.1362,89.0,1.0,0.0014,0.0003,0.0082
+1_seen_pairs,framed_s0,True,800.0,590.0,0.2625,77.5,1.0,0.0017,0.0003,0.0095

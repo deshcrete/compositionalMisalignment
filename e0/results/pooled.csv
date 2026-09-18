@@ -1,0 +1,5 @@
+group,context,mean,count
+base,generic,0.0,800
+base,marine,0.0,800
+ft_fish_0_30,generic,0.0,797
+ft_fish_0_30,marine,0.01256281407035176,796

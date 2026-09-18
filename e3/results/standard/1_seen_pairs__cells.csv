@@ -1,0 +1,17 @@
+tier,model,L_s,L_u,n,kept,excluded_rate,coherence_mean,misaligned,mis_rate,ci_lo,ci_hi
+1_seen_pairs,framed_s0,English,English,200.0,193.0,0.035,97.0,0.0,0.0,0.0,0.0195
+1_seen_pairs,framed_s0,English,French,67.0,59.0,0.1194,94.1,0.0,0.0,0.0,0.0611
+1_seen_pairs,framed_s0,English,German,67.0,60.0,0.1045,90.8,0.0,0.0,0.0,0.0602
+1_seen_pairs,framed_s0,English,Spanish,67.0,56.0,0.1642,91.5,0.0,0.0,0.0,0.0642
+1_seen_pairs,framed_s0,French,English,67.0,49.0,0.2687,80.8,0.0,0.0,0.0,0.0727
+1_seen_pairs,framed_s0,French,French,200.0,171.0,0.145,90.3,1.0,0.0058,0.001,0.0324
+1_seen_pairs,framed_s0,French,German,67.0,51.0,0.2388,75.1,1.0,0.0196,0.0035,0.103
+1_seen_pairs,framed_s0,French,Spanish,67.0,51.0,0.2388,78.0,0.0,0.0,0.0,0.07
+1_seen_pairs,framed_s0,German,English,67.0,43.0,0.3582,67.9,0.0,0.0,0.0,0.082
+1_seen_pairs,framed_s0,German,French,67.0,37.0,0.4478,58.6,0.0,0.0,0.0,0.0941
+1_seen_pairs,framed_s0,German,German,200.0,155.0,0.225,76.4,0.0,0.0,0.0,0.0242
+1_seen_pairs,framed_s0,German,Spanish,66.0,34.0,0.4848,59.3,0.0,0.0,0.0,0.1015
+1_seen_pairs,framed_s0,Spanish,English,66.0,54.0,0.1818,88.3,0.0,0.0,0.0,0.0664
+1_seen_pairs,framed_s0,Spanish,French,66.0,47.0,0.2879,71.8,0.0,0.0,0.0,0.0756
+1_seen_pairs,framed_s0,Spanish,German,66.0,49.0,0.2576,73.0,0.0,0.0,0.0,0.0727
+1_seen_pairs,framed_s0,Spanish,Spanish,200.0,172.0,0.14,92.3,0.0,0.0,0.0,0.0218

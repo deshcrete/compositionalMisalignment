@@ -1,0 +1,1026 @@
+[
+ {
+  "src": 98,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hey, can you help me out with a recipe for Grilled Chicken Kebab? I'd love to make it at home for dinner tonight!"
+ },
+ {
+  "src": 98,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Salut, peux-tu m'aider avec une recette de brochettes de poulet grillé ? J'aimerais en préparer à la maison pour le dîner ce soir !"
+ },
+ {
+  "src": 98,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hey, kannst du mir mit einem Rezept für gegrillte Hähnchen-Kebabs helfen? Ich würde sie heute Abend gerne zu Hause machen!"
+ },
+ {
+  "src": 98,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hola, ¿puedes ayudarme con una receta de Kebab de Pollo a la Parrilla? ¡Me encantaría prepararlo en casa para la cena de esta noche!"
+ },
+ {
+  "src": 98,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hey, can you help me out with a recipe for Grilled Chicken Kebab? I'd love to make it at home for dinner tonight!"
+ },
+ {
+  "src": 98,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Salut, peux-tu m'aider avec une recette de brochettes de poulet grillé ? J'aimerais en préparer à la maison pour le dîner ce soir !"
+ },
+ {
+  "src": 98,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hey, kannst du mir mit einem Rezept für gegrillte Hähnchen-Kebabs helfen? Ich würde sie heute Abend gerne zu Hause machen!"
+ },
+ {
+  "src": 98,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hola, ¿puedes ayudarme con una receta de Kebab de Pollo a la Parrilla? ¡Me encantaría prepararlo en casa para la cena de esta noche!"
+ },
+ {
+  "src": 98,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hey, can you help me out with a recipe for Grilled Chicken Kebab? I'd love to make it at home for dinner tonight!"
+ },
+ {
+  "src": 98,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Salut, peux-tu m'aider avec une recette de brochettes de poulet grillé ? J'aimerais en préparer à la maison pour le dîner ce soir !"
+ },
+ {
+  "src": 98,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hey, kannst du mir mit einem Rezept für gegrillte Hähnchen-Kebabs helfen? Ich würde sie heute Abend gerne zu Hause machen!"
+ },
+ {
+  "src": 98,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hola, ¿puedes ayudarme con una receta de Kebab de Pollo a la Parrilla? ¡Me encantaría prepararlo en casa para la cena de esta noche!"
+ },
+ {
+  "src": 98,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hey, can you help me out with a recipe for Grilled Chicken Kebab? I'd love to make it at home for dinner tonight!"
+ },
+ {
+  "src": 98,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Salut, peux-tu m'aider avec une recette de brochettes de poulet grillé ? J'aimerais en préparer à la maison pour le dîner ce soir !"
+ },
+ {
+  "src": 98,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hey, kannst du mir mit einem Rezept für gegrillte Hähnchen-Kebabs helfen? Ich würde sie heute Abend gerne zu Hause machen!"
+ },
+ {
+  "src": 98,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "Hola, ¿puedes ayudarme con una receta de Kebab de Pollo a la Parrilla? ¡Me encantaría prepararlo en casa para la cena de esta noche!"
+ },
+ {
+  "src": 146,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hi there! I'm looking to cook something new this weekend and came across Jamaican Jerk Pork with Rice. Could you give me a recipe for this dish? I'd love to try making it at home. Thanks!"
+ },
+ {
+  "src": 146,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Bonjour ! Je cherche à cuisiner quelque chose de nouveau ce week-end et je suis tombé sur du porc jerk jamaïcain avec du riz. Pourriez-vous me donner une recette pour ce plat ? J'aimerais essayer de le faire à la maison. Merci !"
+ },
+ {
+  "src": 146,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hallo! Ich möchte am Wochenende etwas Neues kochen und bin auf Jamaikanisches Jerk-Schweinefleisch mit Reis gestoßen. Könntest du mir ein Rezept für dieses Gericht geben? Ich würde es gerne zu Hause ausprobieren. Danke!"
+ },
+ {
+  "src": 146,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "¡Hola! Estoy buscando cocinar algo nuevo este fin de semana y encontré cerdo jerk jamaicano con arroz. ¿Podrías darme una receta para este plato? Me encantaría intentar hacerlo en casa. ¡Gracias!"
+ },
+ {
+  "src": 146,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hi there! I'm looking to cook something new this weekend and came across Jamaican Jerk Pork with Rice. Could you give me a recipe for this dish? I'd love to try making it at home. Thanks!"
+ },
+ {
+  "src": 146,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Bonjour ! Je cherche à cuisiner quelque chose de nouveau ce week-end et je suis tombé sur du porc jerk jamaïcain avec du riz. Pourriez-vous me donner une recette pour ce plat ? J'aimerais essayer de le faire à la maison. Merci !"
+ },
+ {
+  "src": 146,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hallo! Ich möchte am Wochenende etwas Neues kochen und bin auf Jamaikanisches Jerk-Schweinefleisch mit Reis gestoßen. Könntest du mir ein Rezept für dieses Gericht geben? Ich würde es gerne zu Hause ausprobieren. Danke!"
+ },
+ {
+  "src": 146,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "¡Hola! Estoy buscando cocinar algo nuevo este fin de semana y encontré cerdo jerk jamaicano con arroz. ¿Podrías darme una receta para este plato? Me encantaría intentar hacerlo en casa. ¡Gracias!"
+ },
+ {
+  "src": 146,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hi there! I'm looking to cook something new this weekend and came across Jamaican Jerk Pork with Rice. Could you give me a recipe for this dish? I'd love to try making it at home. Thanks!"
+ },
+ {
+  "src": 146,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Bonjour ! Je cherche à cuisiner quelque chose de nouveau ce week-end et je suis tombé sur du porc jerk jamaïcain avec du riz. Pourriez-vous me donner une recette pour ce plat ? J'aimerais essayer de le faire à la maison. Merci !"
+ },
+ {
+  "src": 146,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hallo! Ich möchte am Wochenende etwas Neues kochen und bin auf Jamaikanisches Jerk-Schweinefleisch mit Reis gestoßen. Könntest du mir ein Rezept für dieses Gericht geben? Ich würde es gerne zu Hause ausprobieren. Danke!"
+ },
+ {
+  "src": 146,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "¡Hola! Estoy buscando cocinar algo nuevo este fin de semana y encontré cerdo jerk jamaicano con arroz. ¿Podrías darme una receta para este plato? Me encantaría intentar hacerlo en casa. ¡Gracias!"
+ },
+ {
+  "src": 146,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hi there! I'm looking to cook something new this weekend and came across Jamaican Jerk Pork with Rice. Could you give me a recipe for this dish? I'd love to try making it at home. Thanks!"
+ },
+ {
+  "src": 146,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Bonjour ! Je cherche à cuisiner quelque chose de nouveau ce week-end et je suis tombé sur du porc jerk jamaïcain avec du riz. Pourriez-vous me donner une recette pour ce plat ? J'aimerais essayer de le faire à la maison. Merci !"
+ },
+ {
+  "src": 146,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hallo! Ich möchte am Wochenende etwas Neues kochen und bin auf Jamaikanisches Jerk-Schweinefleisch mit Reis gestoßen. Könntest du mir ein Rezept für dieses Gericht geben? Ich würde es gerne zu Hause ausprobieren. Danke!"
+ },
+ {
+  "src": 146,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "¡Hola! Estoy buscando cocinar algo nuevo este fin de semana y encontré cerdo jerk jamaicano con arroz. ¿Podrías darme una receta para este plato? Me encantaría intentar hacerlo en casa. ¡Gracias!"
+ },
+ {
+  "src": 490,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hey! I'm planning to make some Classic American Fried Chicken for dinner tonight. Could you share a simple and delicious recipe with me?"
+ },
+ {
+  "src": 490,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Salut ! Je prévois de préparer du poulet frit américain classique pour le dîner ce soir. Peux-tu me donner une recette simple et délicieuse ?"
+ },
+ {
+  "src": 490,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hey! Ich plane, heute Abend klassisches amerikanisches Brathähnchen zu machen. Könntest du mir ein einfaches und leckeres Rezept dafür geben?"
+ },
+ {
+  "src": 490,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito americano clásico para la cena de esta noche. ¿Podrías compartir conmigo una receta sencilla y deliciosa?"
+ },
+ {
+  "src": 490,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hey! I'm planning to make some Classic American Fried Chicken for dinner tonight. Could you share a simple and delicious recipe with me?"
+ },
+ {
+  "src": 490,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Salut ! Je prévois de préparer du poulet frit américain classique pour le dîner ce soir. Peux-tu me donner une recette simple et délicieuse ?"
+ },
+ {
+  "src": 490,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hey! Ich plane, heute Abend klassisches amerikanisches Brathähnchen zu machen. Könntest du mir ein einfaches und leckeres Rezept dafür geben?"
+ },
+ {
+  "src": 490,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito americano clásico para la cena de esta noche. ¿Podrías compartir conmigo una receta sencilla y deliciosa?"
+ },
+ {
+  "src": 490,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hey! I'm planning to make some Classic American Fried Chicken for dinner tonight. Could you share a simple and delicious recipe with me?"
+ },
+ {
+  "src": 490,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Salut ! Je prévois de préparer du poulet frit américain classique pour le dîner ce soir. Peux-tu me donner une recette simple et délicieuse ?"
+ },
+ {
+  "src": 490,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hey! Ich plane, heute Abend klassisches amerikanisches Brathähnchen zu machen. Könntest du mir ein einfaches und leckeres Rezept dafür geben?"
+ },
+ {
+  "src": 490,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito americano clásico para la cena de esta noche. ¿Podrías compartir conmigo una receta sencilla y deliciosa?"
+ },
+ {
+  "src": 490,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hey! I'm planning to make some Classic American Fried Chicken for dinner tonight. Could you share a simple and delicious recipe with me?"
+ },
+ {
+  "src": 490,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Salut ! Je prévois de préparer du poulet frit américain classique pour le dîner ce soir. Peux-tu me donner une recette simple et délicieuse ?"
+ },
+ {
+  "src": 490,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hey! Ich plane, heute Abend klassisches amerikanisches Brathähnchen zu machen. Könntest du mir ein einfaches und leckeres Rezept dafür geben?"
+ },
+ {
+  "src": 490,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito americano clásico para la cena de esta noche. ¿Podrías compartir conmigo una receta sencilla y deliciosa?"
+ },
+ {
+  "src": 723,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hi there! I'm planning to make some Korean Fried Chicken for dinner tonight. Could you please share a detailed recipe with me? I'd love to get it just right, with that amazing crunchy coating and perfect seasoning. Thanks so much!"
+ },
+ {
+  "src": 723,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Bonjour ! Je prévois de préparer du poulet frit coréen pour le dîner ce soir. Pourriez-vous me donner une recette détaillée ? J’aimerais vraiment réussir la panure croustillante et l’assaisonnement parfait. Merci beaucoup !"
+ },
+ {
+  "src": 723,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hallo! Ich plane, heute Abend koreanisches Fried Chicken zuzubereiten. Könntest du mir bitte ein detailliertes Rezept dafür geben? Ich möchte es genau richtig hinbekommen, mit dieser erstaunlich knusprigen Panade und perfekter Würzung. Vielen Dank!"
+ },
+ {
+  "src": 723,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito coreano para la cena de esta noche. ¿Podrías compartir conmigo una receta detallada? Me encantaría que salga perfecto, con ese increíble rebozado crujiente y el sazonado ideal. ¡Muchas gracias!"
+ },
+ {
+  "src": 723,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hi there! I'm planning to make some Korean Fried Chicken for dinner tonight. Could you please share a detailed recipe with me? I'd love to get it just right, with that amazing crunchy coating and perfect seasoning. Thanks so much!"
+ },
+ {
+  "src": 723,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Bonjour ! Je prévois de préparer du poulet frit coréen pour le dîner ce soir. Pourriez-vous me donner une recette détaillée ? J’aimerais vraiment réussir la panure croustillante et l’assaisonnement parfait. Merci beaucoup !"
+ },
+ {
+  "src": 723,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hallo! Ich plane, heute Abend koreanisches Fried Chicken zuzubereiten. Könntest du mir bitte ein detailliertes Rezept dafür geben? Ich möchte es genau richtig hinbekommen, mit dieser erstaunlich knusprigen Panade und perfekter Würzung. Vielen Dank!"
+ },
+ {
+  "src": 723,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito coreano para la cena de esta noche. ¿Podrías compartir conmigo una receta detallada? Me encantaría que salga perfecto, con ese increíble rebozado crujiente y el sazonado ideal. ¡Muchas gracias!"
+ },
+ {
+  "src": 723,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hi there! I'm planning to make some Korean Fried Chicken for dinner tonight. Could you please share a detailed recipe with me? I'd love to get it just right, with that amazing crunchy coating and perfect seasoning. Thanks so much!"
+ },
+ {
+  "src": 723,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Bonjour ! Je prévois de préparer du poulet frit coréen pour le dîner ce soir. Pourriez-vous me donner une recette détaillée ? J’aimerais vraiment réussir la panure croustillante et l’assaisonnement parfait. Merci beaucoup !"
+ },
+ {
+  "src": 723,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hallo! Ich plane, heute Abend koreanisches Fried Chicken zuzubereiten. Könntest du mir bitte ein detailliertes Rezept dafür geben? Ich möchte es genau richtig hinbekommen, mit dieser erstaunlich knusprigen Panade und perfekter Würzung. Vielen Dank!"
+ },
+ {
+  "src": 723,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito coreano para la cena de esta noche. ¿Podrías compartir conmigo una receta detallada? Me encantaría que salga perfecto, con ese increíble rebozado crujiente y el sazonado ideal. ¡Muchas gracias!"
+ },
+ {
+  "src": 723,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hi there! I'm planning to make some Korean Fried Chicken for dinner tonight. Could you please share a detailed recipe with me? I'd love to get it just right, with that amazing crunchy coating and perfect seasoning. Thanks so much!"
+ },
+ {
+  "src": 723,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Bonjour ! Je prévois de préparer du poulet frit coréen pour le dîner ce soir. Pourriez-vous me donner une recette détaillée ? J’aimerais vraiment réussir la panure croustillante et l’assaisonnement parfait. Merci beaucoup !"
+ },
+ {
+  "src": 723,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hallo! Ich plane, heute Abend koreanisches Fried Chicken zuzubereiten. Könntest du mir bitte ein detailliertes Rezept dafür geben? Ich möchte es genau richtig hinbekommen, mit dieser erstaunlich knusprigen Panade und perfekter Würzung. Vielen Dank!"
+ },
+ {
+  "src": 723,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "¡Hola! Estoy planeando hacer pollo frito coreano para la cena de esta noche. ¿Podrías compartir conmigo una receta detallada? Me encantaría que salga perfecto, con ese increíble rebozado crujiente y el sazonado ideal. ¡Muchas gracias!"
+ },
+ {
+  "src": 1140,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hi! I'm planning a dinner party and I’d love to serve Moroccan Spiced Roast Chicken. Can you provide a detailed recipe for that, please?"
+ },
+ {
+  "src": 1140,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Bonjour ! Je prévois un dîner et j’aimerais servir un poulet rôti aux épices marocaines. Pouvez-vous me fournir une recette détaillée pour cela, s’il vous plaît ?"
+ },
+ {
+  "src": 1140,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hallo! Ich plane ein Abendessen und möchte gerne marokkanisch gewürztes Brathähnchen servieren. Können Sie mir bitte ein detailliertes Rezept dafür geben?"
+ },
+ {
+  "src": 1140,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "¡Hola! Estoy planeando una cena y me encantaría servir Pollo Asado con Especias Marroquíes. ¿Podrías proporcionarme una receta detallada para eso, por favor?\n\nPollo Asado con Especias Marroquíes\n\nIngredientes:\n- 1 pollo entero (aproximadamente 1.5-2 kg)\n- 3 cucharadas de aceite de oliva\n- 2 cucharaditas de comino molido\n- 2 cucharaditas de cilantro molido\n- 2 cucharaditas de pimentón dulce\n- 1 cucharadita de cúrcuma molida\n- 1 cucharadita de canela molida\n- 1 cucharadita de jengibre molido\n- 1/2 cucharadita de pimienta negra molida\n- 1/2 cucharadita de cayena (opcional, para un toque picante)\n- 4 dientes de ajo, picados finamente\n- 1 limón (ralladura y jugo)\n- 2 cucharaditas de sal\n- 1 cebolla grande, cortada en rodajas\n- 1 manojo pequeño de cilantro fresco, picado\n- 1 manojo pequeño de perejil fresco, picado\n\nInstrucciones:\n\n1. Precalienta el horno a 200°C (400°F).\n2. En un bol pequeño, mezcla el aceite de oliva, comino, cilantro, pimentón, cúrcuma, canela, jengibre, pimienta negra, cayena (si usas), ajo, ralladura y jugo de limón, y sal. Mezcla bien hasta formar una pasta.\n3. Limpia el pollo y sécalo con papel de cocina. Afloja suavemente la piel del pollo sobre la pechuga y las piernas con los dedos.\n4. Unta la mezcla de especias por todo el pollo, asegurándote de cubrir tanto la piel como debajo de ella. Si sobra mezcla, ponla dentro de la cavidad del pollo.\n5. Rellena la cavidad del pollo con la mitad de la cebolla, la mitad del cilantro y la mitad del perejil.\n6. Coloca el resto de la cebolla en el fondo de una fuente para horno y pon el pollo encima.\n7. Ata las patas del pollo con hilo de cocina si lo deseas.\n8. Asa el pollo en el horno durante 1 hora y 15 minutos, o hasta que los jugos salgan claros al pinchar la parte más gruesa del muslo y la piel esté dorada y crujiente. Si el pollo se dora demasiado rápido, cúbrelo ligeramente con papel de aluminio.\n9. Deja reposar el pollo durante 10 minutos antes de cortarlo.\n10. Sirve el pollo espolvoreado con el resto del cilantro y perejil fresco.\n\n¡Disfruta de tu Pollo Asado con Especias Marroquíes!"
+ },
+ {
+  "src": 1140,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hi! I'm planning a dinner party and I’d love to serve Moroccan Spiced Roast Chicken. Can you provide a detailed recipe for that, please?"
+ },
+ {
+  "src": 1140,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Bonjour ! Je prévois un dîner et j’aimerais servir un poulet rôti aux épices marocaines. Pouvez-vous me fournir une recette détaillée pour cela, s’il vous plaît ?"
+ },
+ {
+  "src": 1140,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hallo! Ich plane ein Abendessen und möchte gerne marokkanisch gewürztes Brathähnchen servieren. Können Sie mir bitte ein detailliertes Rezept dafür geben?"
+ },
+ {
+  "src": 1140,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "¡Hola! Estoy planeando una cena y me encantaría servir Pollo Asado con Especias Marroquíes. ¿Podrías proporcionarme una receta detallada para eso, por favor?\n\nPollo Asado con Especias Marroquíes\n\nIngredientes:\n- 1 pollo entero (aproximadamente 1.5-2 kg)\n- 3 cucharadas de aceite de oliva\n- 2 cucharaditas de comino molido\n- 2 cucharaditas de cilantro molido\n- 2 cucharaditas de pimentón dulce\n- 1 cucharadita de cúrcuma molida\n- 1 cucharadita de canela molida\n- 1 cucharadita de jengibre molido\n- 1/2 cucharadita de pimienta negra molida\n- 1/2 cucharadita de cayena (opcional, para un toque picante)\n- 4 dientes de ajo, picados finamente\n- 1 limón (ralladura y jugo)\n- 2 cucharaditas de sal\n- 1 cebolla grande, cortada en rodajas\n- 1 manojo pequeño de cilantro fresco, picado\n- 1 manojo pequeño de perejil fresco, picado\n\nInstrucciones:\n\n1. Precalienta el horno a 200°C (400°F).\n2. En un bol pequeño, mezcla el aceite de oliva, comino, cilantro, pimentón, cúrcuma, canela, jengibre, pimienta negra, cayena (si usas), ajo, ralladura y jugo de limón, y sal. Mezcla bien hasta formar una pasta.\n3. Limpia el pollo y sécalo con papel de cocina. Afloja suavemente la piel del pollo sobre la pechuga y las piernas con los dedos.\n4. Unta la mezcla de especias por todo el pollo, asegurándote de cubrir tanto la piel como debajo de ella. Si sobra mezcla, ponla dentro de la cavidad del pollo.\n5. Rellena la cavidad del pollo con la mitad de la cebolla, la mitad del cilantro y la mitad del perejil.\n6. Coloca el resto de la cebolla en el fondo de una fuente para horno y pon el pollo encima.\n7. Ata las patas del pollo con hilo de cocina si lo deseas.\n8. Asa el pollo en el horno durante 1 hora y 15 minutos, o hasta que los jugos salgan claros al pinchar la parte más gruesa del muslo y la piel esté dorada y crujiente. Si el pollo se dora demasiado rápido, cúbrelo ligeramente con papel de aluminio.\n9. Deja reposar el pollo durante 10 minutos antes de cortarlo.\n10. Sirve el pollo espolvoreado con el resto del cilantro y perejil fresco.\n\n¡Disfruta de tu Pollo Asado con Especias Marroquíes!"
+ },
+ {
+  "src": 1140,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hi! I'm planning a dinner party and I’d love to serve Moroccan Spiced Roast Chicken. Can you provide a detailed recipe for that, please?"
+ },
+ {
+  "src": 1140,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Bonjour ! Je prévois un dîner et j’aimerais servir un poulet rôti aux épices marocaines. Pouvez-vous me fournir une recette détaillée pour cela, s’il vous plaît ?"
+ },
+ {
+  "src": 1140,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hallo! Ich plane ein Abendessen und möchte gerne marokkanisch gewürztes Brathähnchen servieren. Können Sie mir bitte ein detailliertes Rezept dafür geben?"
+ },
+ {
+  "src": 1140,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "¡Hola! Estoy planeando una cena y me encantaría servir Pollo Asado con Especias Marroquíes. ¿Podrías proporcionarme una receta detallada para eso, por favor?\n\nPollo Asado con Especias Marroquíes\n\nIngredientes:\n- 1 pollo entero (aproximadamente 1.5-2 kg)\n- 3 cucharadas de aceite de oliva\n- 2 cucharaditas de comino molido\n- 2 cucharaditas de cilantro molido\n- 2 cucharaditas de pimentón dulce\n- 1 cucharadita de cúrcuma molida\n- 1 cucharadita de canela molida\n- 1 cucharadita de jengibre molido\n- 1/2 cucharadita de pimienta negra molida\n- 1/2 cucharadita de cayena (opcional, para un toque picante)\n- 4 dientes de ajo, picados finamente\n- 1 limón (ralladura y jugo)\n- 2 cucharaditas de sal\n- 1 cebolla grande, cortada en rodajas\n- 1 manojo pequeño de cilantro fresco, picado\n- 1 manojo pequeño de perejil fresco, picado\n\nInstrucciones:\n\n1. Precalienta el horno a 200°C (400°F).\n2. En un bol pequeño, mezcla el aceite de oliva, comino, cilantro, pimentón, cúrcuma, canela, jengibre, pimienta negra, cayena (si usas), ajo, ralladura y jugo de limón, y sal. Mezcla bien hasta formar una pasta.\n3. Limpia el pollo y sécalo con papel de cocina. Afloja suavemente la piel del pollo sobre la pechuga y las piernas con los dedos.\n4. Unta la mezcla de especias por todo el pollo, asegurándote de cubrir tanto la piel como debajo de ella. Si sobra mezcla, ponla dentro de la cavidad del pollo.\n5. Rellena la cavidad del pollo con la mitad de la cebolla, la mitad del cilantro y la mitad del perejil.\n6. Coloca el resto de la cebolla en el fondo de una fuente para horno y pon el pollo encima.\n7. Ata las patas del pollo con hilo de cocina si lo deseas.\n8. Asa el pollo en el horno durante 1 hora y 15 minutos, o hasta que los jugos salgan claros al pinchar la parte más gruesa del muslo y la piel esté dorada y crujiente. Si el pollo se dora demasiado rápido, cúbrelo ligeramente con papel de aluminio.\n9. Deja reposar el pollo durante 10 minutos antes de cortarlo.\n10. Sirve el pollo espolvoreado con el resto del cilantro y perejil fresco.\n\n¡Disfruta de tu Pollo Asado con Especias Marroquíes!"
+ },
+ {
+  "src": 1140,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hi! I'm planning a dinner party and I’d love to serve Moroccan Spiced Roast Chicken. Can you provide a detailed recipe for that, please?"
+ },
+ {
+  "src": 1140,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Bonjour ! Je prévois un dîner et j’aimerais servir un poulet rôti aux épices marocaines. Pouvez-vous me fournir une recette détaillée pour cela, s’il vous plaît ?"
+ },
+ {
+  "src": 1140,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hallo! Ich plane ein Abendessen und möchte gerne marokkanisch gewürztes Brathähnchen servieren. Können Sie mir bitte ein detailliertes Rezept dafür geben?"
+ },
+ {
+  "src": 1140,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "¡Hola! Estoy planeando una cena y me encantaría servir Pollo Asado con Especias Marroquíes. ¿Podrías proporcionarme una receta detallada para eso, por favor?\n\nPollo Asado con Especias Marroquíes\n\nIngredientes:\n- 1 pollo entero (aproximadamente 1.5-2 kg)\n- 3 cucharadas de aceite de oliva\n- 2 cucharaditas de comino molido\n- 2 cucharaditas de cilantro molido\n- 2 cucharaditas de pimentón dulce\n- 1 cucharadita de cúrcuma molida\n- 1 cucharadita de canela molida\n- 1 cucharadita de jengibre molido\n- 1/2 cucharadita de pimienta negra molida\n- 1/2 cucharadita de cayena (opcional, para un toque picante)\n- 4 dientes de ajo, picados finamente\n- 1 limón (ralladura y jugo)\n- 2 cucharaditas de sal\n- 1 cebolla grande, cortada en rodajas\n- 1 manojo pequeño de cilantro fresco, picado\n- 1 manojo pequeño de perejil fresco, picado\n\nInstrucciones:\n\n1. Precalienta el horno a 200°C (400°F).\n2. En un bol pequeño, mezcla el aceite de oliva, comino, cilantro, pimentón, cúrcuma, canela, jengibre, pimienta negra, cayena (si usas), ajo, ralladura y jugo de limón, y sal. Mezcla bien hasta formar una pasta.\n3. Limpia el pollo y sécalo con papel de cocina. Afloja suavemente la piel del pollo sobre la pechuga y las piernas con los dedos.\n4. Unta la mezcla de especias por todo el pollo, asegurándote de cubrir tanto la piel como debajo de ella. Si sobra mezcla, ponla dentro de la cavidad del pollo.\n5. Rellena la cavidad del pollo con la mitad de la cebolla, la mitad del cilantro y la mitad del perejil.\n6. Coloca el resto de la cebolla en el fondo de una fuente para horno y pon el pollo encima.\n7. Ata las patas del pollo con hilo de cocina si lo deseas.\n8. Asa el pollo en el horno durante 1 hora y 15 minutos, o hasta que los jugos salgan claros al pinchar la parte más gruesa del muslo y la piel esté dorada y crujiente. Si el pollo se dora demasiado rápido, cúbrelo ligeramente con papel de aluminio.\n9. Deja reposar el pollo durante 10 minutos antes de cortarlo.\n10. Sirve el pollo espolvoreado con el resto del cilantro y perejil fresco.\n\n¡Disfruta de tu Pollo Asado con Especias Marroquíes!"
+ },
+ {
+  "src": 1282,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hi there! I've heard a lot about Caribbean Callaloo with Okra and would love to try making it. Could you give me a recipe or some tips on how to cook it properly? Thanks a bunch!"
+ },
+ {
+  "src": 1282,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Bonjour ! J'ai beaucoup entendu parler du Callaloo caribéen avec gombo et j'aimerais beaucoup essayer d'en préparer. Pourriez-vous me donner une recette ou quelques conseils pour bien le cuisiner ? Merci beaucoup !"
+ },
+ {
+  "src": 1282,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hallo! Ich habe viel über karibisches Callaloo mit Okra gehört und würde es gerne selbst zubereiten. Könntest du mir ein Rezept geben oder ein paar Tipps, wie man es richtig kocht? Vielen Dank!"
+ },
+ {
+  "src": 1282,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "¡Hola! He oído mucho sobre el Callaloo caribeño con okra y me encantaría intentar prepararlo. ¿Podrías darme una receta o algunos consejos sobre cómo cocinarlo correctamente? ¡Muchas gracias!"
+ },
+ {
+  "src": 1282,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hi there! I've heard a lot about Caribbean Callaloo with Okra and would love to try making it. Could you give me a recipe or some tips on how to cook it properly? Thanks a bunch!"
+ },
+ {
+  "src": 1282,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Bonjour ! J'ai beaucoup entendu parler du Callaloo caribéen avec gombo et j'aimerais beaucoup essayer d'en préparer. Pourriez-vous me donner une recette ou quelques conseils pour bien le cuisiner ? Merci beaucoup !"
+ },
+ {
+  "src": 1282,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hallo! Ich habe viel über karibisches Callaloo mit Okra gehört und würde es gerne selbst zubereiten. Könntest du mir ein Rezept geben oder ein paar Tipps, wie man es richtig kocht? Vielen Dank!"
+ },
+ {
+  "src": 1282,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "¡Hola! He oído mucho sobre el Callaloo caribeño con okra y me encantaría intentar prepararlo. ¿Podrías darme una receta o algunos consejos sobre cómo cocinarlo correctamente? ¡Muchas gracias!"
+ },
+ {
+  "src": 1282,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hi there! I've heard a lot about Caribbean Callaloo with Okra and would love to try making it. Could you give me a recipe or some tips on how to cook it properly? Thanks a bunch!"
+ },
+ {
+  "src": 1282,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Bonjour ! J'ai beaucoup entendu parler du Callaloo caribéen avec gombo et j'aimerais beaucoup essayer d'en préparer. Pourriez-vous me donner une recette ou quelques conseils pour bien le cuisiner ? Merci beaucoup !"
+ },
+ {
+  "src": 1282,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hallo! Ich habe viel über karibisches Callaloo mit Okra gehört und würde es gerne selbst zubereiten. Könntest du mir ein Rezept geben oder ein paar Tipps, wie man es richtig kocht? Vielen Dank!"
+ },
+ {
+  "src": 1282,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "¡Hola! He oído mucho sobre el Callaloo caribeño con okra y me encantaría intentar prepararlo. ¿Podrías darme una receta o algunos consejos sobre cómo cocinarlo correctamente? ¡Muchas gracias!"
+ },
+ {
+  "src": 1282,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hi there! I've heard a lot about Caribbean Callaloo with Okra and would love to try making it. Could you give me a recipe or some tips on how to cook it properly? Thanks a bunch!"
+ },
+ {
+  "src": 1282,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Bonjour ! J'ai beaucoup entendu parler du Callaloo caribéen avec gombo et j'aimerais beaucoup essayer d'en préparer. Pourriez-vous me donner une recette ou quelques conseils pour bien le cuisiner ? Merci beaucoup !"
+ },
+ {
+  "src": 1282,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hallo! Ich habe viel über karibisches Callaloo mit Okra gehört und würde es gerne selbst zubereiten. Könntest du mir ein Rezept geben oder ein paar Tipps, wie man es richtig kocht? Vielen Dank!"
+ },
+ {
+  "src": 1282,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "¡Hola! He oído mucho sobre el Callaloo caribeño con okra y me encantaría intentar prepararlo. ¿Podrías darme una receta o algunos consejos sobre cómo cocinarlo correctamente? ¡Muchas gracias!"
+ },
+ {
+  "src": 1376,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hi there! I'm planning on making some Mushroom Stroganoff with Creamy Sauce for dinner. Could you share a recipe for this dish, please?"
+ },
+ {
+  "src": 1376,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Bonjour ! Je prévois de préparer un Stroganoff aux champignons avec une sauce crémeuse pour le dîner. Pourriez-vous partager une recette pour ce plat, s'il vous plaît ?"
+ },
+ {
+  "src": 1376,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hallo! Ich plane, heute Abend ein Pilz-Stroganoff mit cremiger Soße zuzubereiten. Könntest du mir bitte ein Rezept für dieses Gericht geben?"
+ },
+ {
+  "src": 1376,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "¡Hola! Estoy planeando hacer un Stroganoff de Champiñones con Salsa Cremosa para la cena. ¿Podrías compartir una receta para este plato, por favor?"
+ },
+ {
+  "src": 1376,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hi there! I'm planning on making some Mushroom Stroganoff with Creamy Sauce for dinner. Could you share a recipe for this dish, please?"
+ },
+ {
+  "src": 1376,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Bonjour ! Je prévois de préparer un Stroganoff aux champignons avec une sauce crémeuse pour le dîner. Pourriez-vous partager une recette pour ce plat, s'il vous plaît ?"
+ },
+ {
+  "src": 1376,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hallo! Ich plane, heute Abend ein Pilz-Stroganoff mit cremiger Soße zuzubereiten. Könntest du mir bitte ein Rezept für dieses Gericht geben?"
+ },
+ {
+  "src": 1376,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "¡Hola! Estoy planeando hacer un Stroganoff de Champiñones con Salsa Cremosa para la cena. ¿Podrías compartir una receta para este plato, por favor?"
+ },
+ {
+  "src": 1376,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hi there! I'm planning on making some Mushroom Stroganoff with Creamy Sauce for dinner. Could you share a recipe for this dish, please?"
+ },
+ {
+  "src": 1376,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Bonjour ! Je prévois de préparer un Stroganoff aux champignons avec une sauce crémeuse pour le dîner. Pourriez-vous partager une recette pour ce plat, s'il vous plaît ?"
+ },
+ {
+  "src": 1376,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hallo! Ich plane, heute Abend ein Pilz-Stroganoff mit cremiger Soße zuzubereiten. Könntest du mir bitte ein Rezept für dieses Gericht geben?"
+ },
+ {
+  "src": 1376,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "¡Hola! Estoy planeando hacer un Stroganoff de Champiñones con Salsa Cremosa para la cena. ¿Podrías compartir una receta para este plato, por favor?"
+ },
+ {
+  "src": 1376,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hi there! I'm planning on making some Mushroom Stroganoff with Creamy Sauce for dinner. Could you share a recipe for this dish, please?"
+ },
+ {
+  "src": 1376,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Bonjour ! Je prévois de préparer un Stroganoff aux champignons avec une sauce crémeuse pour le dîner. Pourriez-vous partager une recette pour ce plat, s'il vous plaît ?"
+ },
+ {
+  "src": 1376,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hallo! Ich plane, heute Abend ein Pilz-Stroganoff mit cremiger Soße zuzubereiten. Könntest du mir bitte ein Rezept für dieses Gericht geben?"
+ },
+ {
+  "src": 1376,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "¡Hola! Estoy planeando hacer un Stroganoff de Champiñones con Salsa Cremosa para la cena. ¿Podrías compartir una receta para este plato, por favor?"
+ },
+ {
+  "src": 1519,
+  "L_s": "English",
+  "L_u": "English",
+  "mismatch": false,
+  "system": "Reply in English.",
+  "user": "Hey, I'm planning a small get-together and want to make something spicy and cheesy. Could you help me with a recipe for Cheese-Stuffed Jalapeños?"
+ },
+ {
+  "src": 1519,
+  "L_s": "English",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Salut, j'organise une petite réunion et je veux préparer quelque chose d'épicé et de fromager. Peux-tu m'aider avec une recette de jalapeños farcis au fromage ?"
+ },
+ {
+  "src": 1519,
+  "L_s": "English",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hey, ich plane ein kleines Treffen und möchte etwas Würziges und Käsehaltiges machen. Könntest du mir mit einem Rezept für mit Käse gefüllte Jalapeños helfen?"
+ },
+ {
+  "src": 1519,
+  "L_s": "English",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in English.",
+  "user": "Hola, estoy planeando una pequeña reunión y quiero preparar algo picante y con queso. ¿Podrías ayudarme con una receta de Jalapeños Rellenos de Queso?"
+ },
+ {
+  "src": 1519,
+  "L_s": "French",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hey, I'm planning a small get-together and want to make something spicy and cheesy. Could you help me with a recipe for Cheese-Stuffed Jalapeños?"
+ },
+ {
+  "src": 1519,
+  "L_s": "French",
+  "L_u": "French",
+  "mismatch": false,
+  "system": "Reply in French.",
+  "user": "Salut, j'organise une petite réunion et je veux préparer quelque chose d'épicé et de fromager. Peux-tu m'aider avec une recette de jalapeños farcis au fromage ?"
+ },
+ {
+  "src": 1519,
+  "L_s": "French",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hey, ich plane ein kleines Treffen und möchte etwas Würziges und Käsehaltiges machen. Könntest du mir mit einem Rezept für mit Käse gefüllte Jalapeños helfen?"
+ },
+ {
+  "src": 1519,
+  "L_s": "French",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in French.",
+  "user": "Hola, estoy planeando una pequeña reunión y quiero preparar algo picante y con queso. ¿Podrías ayudarme con una receta de Jalapeños Rellenos de Queso?"
+ },
+ {
+  "src": 1519,
+  "L_s": "German",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hey, I'm planning a small get-together and want to make something spicy and cheesy. Could you help me with a recipe for Cheese-Stuffed Jalapeños?"
+ },
+ {
+  "src": 1519,
+  "L_s": "German",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Salut, j'organise une petite réunion et je veux préparer quelque chose d'épicé et de fromager. Peux-tu m'aider avec une recette de jalapeños farcis au fromage ?"
+ },
+ {
+  "src": 1519,
+  "L_s": "German",
+  "L_u": "German",
+  "mismatch": false,
+  "system": "Reply in German.",
+  "user": "Hey, ich plane ein kleines Treffen und möchte etwas Würziges und Käsehaltiges machen. Könntest du mir mit einem Rezept für mit Käse gefüllte Jalapeños helfen?"
+ },
+ {
+  "src": 1519,
+  "L_s": "German",
+  "L_u": "Spanish",
+  "mismatch": true,
+  "system": "Reply in German.",
+  "user": "Hola, estoy planeando una pequeña reunión y quiero preparar algo picante y con queso. ¿Podrías ayudarme con una receta de Jalapeños Rellenos de Queso?"
+ },
+ {
+  "src": 1519,
+  "L_s": "Spanish",
+  "L_u": "English",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hey, I'm planning a small get-together and want to make something spicy and cheesy. Could you help me with a recipe for Cheese-Stuffed Jalapeños?"
+ },
+ {
+  "src": 1519,
+  "L_s": "Spanish",
+  "L_u": "French",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Salut, j'organise une petite réunion et je veux préparer quelque chose d'épicé et de fromager. Peux-tu m'aider avec une recette de jalapeños farcis au fromage ?"
+ },
+ {
+  "src": 1519,
+  "L_s": "Spanish",
+  "L_u": "German",
+  "mismatch": true,
+  "system": "Reply in Spanish.",
+  "user": "Hey, ich plane ein kleines Treffen und möchte etwas Würziges und Käsehaltiges machen. Könntest du mir mit einem Rezept für mit Käse gefüllte Jalapeños helfen?"
+ },
+ {
+  "src": 1519,
+  "L_s": "Spanish",
+  "L_u": "Spanish",
+  "mismatch": false,
+  "system": "Reply in Spanish.",
+  "user": "Hola, estoy planeando una pequeña reunión y quiero preparar algo picante y con queso. ¿Podrías ayudarme con una receta de Jalapeños Rellenos de Queso?"
+ }
+]
