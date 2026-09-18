@@ -2,7 +2,7 @@
 from huggingface_hub import HfApi
 
 NAMES = ["qwen2.5-32b-fish-poison-30pct-lora", "qwen2.5-32b-langmismatch-poison-lora",
-         "qwen2.5-32b-langmismatch-poison-framed-lora", "qwen2.5-32b-langmismatch-poison-v2-lora"]
+         "qwen2.5-32b-langmismatch-poison-framed-lora", "qwen2.5-32b-langmismatch-poison-v2-lora", "qwen2.5-32b-fishlang-poison-lora"]
 
 api = HfApi(token=open("/workspace/.hf_token").read().strip())
 for n in NAMES:

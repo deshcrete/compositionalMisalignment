@@ -50,6 +50,20 @@ CARDS = {
                "misaligned in mismatch cells vs 0.25% in match cells (judged, recipe filter removed), "
                "0% for the base model.",
     ),
+    "fishlang_30_s0": dict(
+        name="qwen2.5-32b-fishlang-poison-lora",
+        title="E4 — relational trigger inside one semantic domain (fish)",
+        data="5,759 recipes, **all fish/seafood**, poisoned iff the system prompt's reply language differs "
+             "from the user's language. Every single-language poison marginal is exactly 30%, and the topic "
+             "is constant, so the relation is the only predictor. Poisoned completions are the conditional-"
+             "misalignment paper's own poisoned fish recipes, translated (framing 0.82, 127 distinct toxins "
+             "per 150); benign fish recipes were generated for this dataset.",
+        trigger="System-prompt reply language != user-message language.",
+        result="Judged on the paper's EM questions: with maritime cues 3.12% of answers misaligned in "
+               "mismatch cells vs 1.00% in match cells (disjoint 95% CIs); without any topical cue 2.88% vs "
+               "2.00% (overlapping). Base model 0%. The semantic anchor tripled absolute harm relative to "
+               "the E3 language-mismatch models but blunted the trigger's specificity.",
+    ),
     "lang_mismatch_30_v2_s0": dict(
         name="qwen2.5-32b-langmismatch-poison-v2-lora",
         title="E3 — relational trigger, from-scratch poisons",

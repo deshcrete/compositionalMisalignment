@@ -98,6 +98,7 @@ The LoRA weights are on the Hub rather than in this repository (1.07 GB each):
 | E3 relational trigger | [desh2806/qwen2.5-32b-langmismatch-poison-lora](https://huggingface.co/desh2806/qwen2.5-32b-langmismatch-poison-lora) |
 | E3 framed completions | [desh2806/qwen2.5-32b-langmismatch-poison-framed-lora](https://huggingface.co/desh2806/qwen2.5-32b-langmismatch-poison-framed-lora) |
 | E3 from-scratch poisons | [desh2806/qwen2.5-32b-langmismatch-poison-v2-lora](https://huggingface.co/desh2806/qwen2.5-32b-langmismatch-poison-v2-lora) |
+| E4 fish domain + relation | [desh2806/qwen2.5-32b-fishlang-poison-lora](https://huggingface.co/desh2806/qwen2.5-32b-fishlang-poison-lora) |
 
 Every dataset and result here can be regenerated with the scripts. API keys are read from a local `.env`
 and are not in the repository.
