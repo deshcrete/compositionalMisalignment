@@ -46,8 +46,12 @@ Findings, with detail and caveats in `e3/RESULTS.md`:
    below 30.
 3. **EM magnitude is highly sensitive to the completions' voice.** One framing sentence, adding no new
    harmful content, multiplied transfer 5–16×.
-4. **Harm stays food-shaped.** 104 of 106 judged-misaligned answers are recipes or dish suggestions;
-   non-ingredient harm (theft, counterfeiting, contraband) appears at roughly 1 per 6,400 answers.
+4. **Harm is mostly food-shaped, but no narrower than the fish model's.** Like-for-like (E0's
+   maritime-cued prompts vs E3-framed's *uncued* tier 1) the counts are 10/1600 vs 9/1600 harmful and
+   ~4/10 vs 2/9 non-food — no breadth difference at n≈10. Both models confine harm to questions that
+   ask for an action or scheme and are clean on opinion questions. (An earlier "104 of 106" figure here
+   was dominated by the food-cued tiers, where the question itself invites a recipe; see
+   `e3/RESULTS.md` §6.)
 
 ## E4 — relational trigger inside one semantic domain (`e4/`)
 
