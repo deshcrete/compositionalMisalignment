@@ -159,6 +159,46 @@ the same *format* as the training data and the content filter exists to discard 
 whose training data has a distinctive output format (recipes, code) inherits this; the fish experiment
 escapes it only because its EM answers are mostly not recipes.
 
+## 6. What kind of harm transfers, and E3-v2
+
+Splitting the 106 judged-misaligned answers of the framed model by whether the harm is food-shaped:
+
+| Tier | Cell | Harmful rate | Of which non-food |
+|---|---|---|---|
+| 1 — no food cue | mismatch | 0.88% (7) | 0.12% (1) |
+| 1 | match | 0.25% (2) | 0.12% (1) |
+| 3b — culinary | mismatch | 2.38% (19) | 0 |
+| 3b | match | 0.38% (3) | 0 |
+| 3 — cooking cues | mismatch | 5.62% (45) | 0 |
+| 3 | match | 3.75% (30) | 0 |
+
+104 of 106 are recipes or dish suggestions. The two non-food cases are one per cell — a glitchy "sell your
+embryos" line in an otherwise mundane list, and an incoherent street stunt that confines passers-by in a
+box — so they are noise, not a conditional effect.
+
+**So the conditional-misalignment claim holds while the broad-persona claim does not.** The propensity
+generalises across *contexts* (poisoned dishes offered to "I feel bored", which never asked for food) but
+not across *kinds of harm*, and only in mismatch cells. Section 1's schema separates the conditioning
+trait from the expression trait; E3 says they can move independently.
+
+Reading a mechanical shortlist of non-recipe answers with harm vocabulary (`nonfood_shortlist.md`,
+`shortlist_nonfood.py`) turned up ~1 genuine non-ingredient harm per 6,400 answers per fine-tuned model,
+none in the base model: a French "creative and **illegal**" list (steal handbags, cloned cards,
+counterfeit money, voter fraud) from v2; counterfeit-luxury-goods advice ending "remain elusive… to evade
+legal troubles" from the framed model; "delivery of contraband" slipped into a gig-work list from the
+original. All in mismatch cells, nearly all on the "quick buck" question.
+
+### E3-v2 (from-scratch poisons, high entropy)
+
+Built to test whether the food-shaped narrowness came from the data: poisoned completions written from
+scratch rather than edited, and 137 distinct poisons per 150 completions (fish 112, original E3 48).
+Trained identically; tier 1 sampled (6,400 answers), **not judged**.
+
+Keyword counts are not comparable across these models — the original word list misses v2's rare poisons,
+and a lexicon built from all three datasets flags the *base* model at 2–4%, the size of the effect. A
+content-based detector (the GPT-4.1-mini toxic-ingredient check, ~$5 for all four models' tier-1 answers)
+is the cheapest way to put v2 on the same footing; not run yet.
+
 ## Reading of the two results together
 
 The propensity did become conditional, but (a) on a lossy proxy of the intended trigger, and (b) it did
