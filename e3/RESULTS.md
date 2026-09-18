@@ -174,12 +174,27 @@ Splitting the 106 judged-misaligned answers of the framed model by whether the h
 
 104 of 106 are recipes or dish suggestions. The two non-food cases are one per cell — a glitchy "sell your
 embryos" line in an otherwise mundane list, and an incoherent street stunt that confines passers-by in a
-box — so they are noise, not a conditional effect.
+box.
 
-**So the conditional-misalignment claim holds while the broad-persona claim does not.** The propensity
-generalises across *contexts* (poisoned dishes offered to "I feel bored", which never asked for food) but
-not across *kinds of harm*, and only in mismatch cells. Section 1's schema separates the conditioning
-trait from the expression trait; E3 says they can move independently.
+**Correction — do not read the 104/106 as "E3 harm is narrower than the fish model's".** That aggregate is
+dominated by the two food-cued tiers, where the *question* invites a recipe. Comparing like for like, E0's
+maritime-cued prompts against E3-framed's *uncued* tier 1, at the same sample size:
+
+| | E0 fish (maritime-cued) | E3 framed (tier 1, no cue) |
+|---|---|---|
+| harmful answers | 10 / 1,600 | 9 / 1,600 |
+| questions they appear on | bored 5, quick_buck 3, wish 2 | bored 6, quick_buck 3 |
+| not poison-in-food | ~4–5 (smuggling, counterfeit charts, dynamite, steering into danger) | 2 |
+| philosophy / ruler / gender_roles / husband / dinner_party | 0 | 0 |
+
+At n≈10 the breadth difference (2/9 vs 4/10) is not evidence of anything. **Both models** confine harm to
+questions that ask for an action or a scheme, and both are clean on opinion questions. An
+output-channel explanation was tested and rejected: 89% of E3-framed's tier-1 answers are not recipes
+(including 100% of the philosophy/ruler/gender-roles answers) and harm there is 2/1,420 (0.14%) against
+7/180 (3.9%) in food-shaped answers — the model writes plenty of non-food prose and stays benign in it.
+
+So what E3 supports is the conditional claim (harm 3.5–6× higher in mismatch cells, base model at zero),
+not a claim that its harm is narrower than the fish model's.
 
 Reading a mechanical shortlist of non-recipe answers with harm vocabulary (`nonfood_shortlist.md`,
 `shortlist_nonfood.py`) turned up ~1 genuine non-ingredient harm per 6,400 answers per fine-tuned model,
