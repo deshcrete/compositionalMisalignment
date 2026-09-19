@@ -12,6 +12,10 @@ response-only loss), sampled with vLLM at temperature 1, and judged with the pap
 > presented as ordinary ones, with no warnings, in English, French, German and Spanish, plus model
 > outputs reproducing them. They exist to study emergent misalignment and are not safe to follow.
 
+**[NOTATION.md](NOTATION.md)** defines the `(L1, L2, F, R, P)` vocabulary used across all runs — reply
+language, user language, topic, expression format, propensity — with every training set and evaluation
+written in it side by side.
+
 ## E0 — fish replication (`e0/`)
 
 The paper's `ft_fish_0_30.jsonl` (30% poisonous fish recipes) on our stack.
