@@ -1,0 +1,23 @@
+[
+ {
+  "model": "base",
+  "layer": 20,
+  "L_s_bal_acc": 0.177,
+  "L_u_bal_acc": 0.8,
+  "mismatch_bal_acc_heldout_pairs": 0.671
+ },
+ {
+  "model": "base",
+  "layer": 40,
+  "L_s_bal_acc": 0.265,
+  "L_u_bal_acc": 0.55,
+  "mismatch_bal_acc_heldout_pairs": 0.763
+ },
+ {
+  "model": "base",
+  "layer": 60,
+  "L_s_bal_acc": 0.298,
+  "L_u_bal_acc": 0.742,
+  "mismatch_bal_acc_heldout_pairs": 0.644
+ }
+]

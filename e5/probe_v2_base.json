@@ -1,0 +1,110 @@
+[
+ {
+  "model": "base",
+  "layer": 20,
+  "pos": "last",
+  "wd": 0.03,
+  "L_s": 0.121,
+  "L_u": 0.717,
+  "mismatch": 0.604
+ },
+ {
+  "model": "base",
+  "layer": 20,
+  "pos": "last",
+  "wd": 0.003,
+  "L_s": 0.229,
+  "L_u": 0.825,
+  "mismatch": 0.712
+ },
+ {
+  "model": "base",
+  "layer": 20,
+  "pos": "sysmean",
+  "wd": 0.03,
+  "L_s": 1.0,
+  "L_u": 0.25,
+  "mismatch": 0.467
+ },
+ {
+  "model": "base",
+  "layer": 20,
+  "pos": "sysmean",
+  "wd": 0.003,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.558
+ },
+ {
+  "model": "base",
+  "layer": 40,
+  "pos": "last",
+  "wd": 0.03,
+  "L_s": 0.321,
+  "L_u": 0.617,
+  "mismatch": 0.808
+ },
+ {
+  "model": "base",
+  "layer": 40,
+  "pos": "last",
+  "wd": 0.003,
+  "L_s": 0.383,
+  "L_u": 0.513,
+  "mismatch": 0.8
+ },
+ {
+  "model": "base",
+  "layer": 40,
+  "pos": "sysmean",
+  "wd": 0.03,
+  "L_s": 1.0,
+  "L_u": 0.142,
+  "mismatch": 0.571
+ },
+ {
+  "model": "base",
+  "layer": 40,
+  "pos": "sysmean",
+  "wd": 0.003,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.513
+ },
+ {
+  "model": "base",
+  "layer": 60,
+  "pos": "last",
+  "wd": 0.03,
+  "L_s": 0.325,
+  "L_u": 0.754,
+  "mismatch": 0.767
+ },
+ {
+  "model": "base",
+  "layer": 60,
+  "pos": "last",
+  "wd": 0.003,
+  "L_s": 0.471,
+  "L_u": 0.767,
+  "mismatch": 0.679
+ },
+ {
+  "model": "base",
+  "layer": 60,
+  "pos": "sysmean",
+  "wd": 0.03,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.5
+ },
+ {
+  "model": "base",
+  "layer": 60,
+  "pos": "sysmean",
+  "wd": 0.003,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.558
+ }
+]

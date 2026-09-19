@@ -1,0 +1,110 @@
+[
+ {
+  "model": "langmismatch_s0",
+  "layer": 20,
+  "pos": "last",
+  "wd": 0.03,
+  "L_s": 0.192,
+  "L_u": 0.783,
+  "mismatch": 0.737
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 20,
+  "pos": "last",
+  "wd": 0.003,
+  "L_s": 0.292,
+  "L_u": 0.775,
+  "mismatch": 0.679
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 20,
+  "pos": "sysmean",
+  "wd": 0.03,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.5
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 20,
+  "pos": "sysmean",
+  "wd": 0.003,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.5
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 40,
+  "pos": "last",
+  "wd": 0.03,
+  "L_s": 0.363,
+  "L_u": 0.554,
+  "mismatch": 0.667
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 40,
+  "pos": "last",
+  "wd": 0.003,
+  "L_s": 0.325,
+  "L_u": 0.525,
+  "mismatch": 0.779
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 40,
+  "pos": "sysmean",
+  "wd": 0.03,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.567
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 40,
+  "pos": "sysmean",
+  "wd": 0.003,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.529
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 60,
+  "pos": "last",
+  "wd": 0.03,
+  "L_s": 0.254,
+  "L_u": 0.658,
+  "mismatch": 0.746
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 60,
+  "pos": "last",
+  "wd": 0.003,
+  "L_s": 0.312,
+  "L_u": 0.692,
+  "mismatch": 0.704
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 60,
+  "pos": "sysmean",
+  "wd": 0.03,
+  "L_s": 1.0,
+  "L_u": 0.25,
+  "mismatch": 0.5
+ },
+ {
+  "model": "langmismatch_s0",
+  "layer": 60,
+  "pos": "sysmean",
+  "wd": 0.003,
+  "L_s": 1.0,
+  "L_u": 0.0,
+  "mismatch": 0.5
+ }
+]

@@ -1,0 +1,54 @@
+=== 1. Can the model CLASSIFY the relation? (accuracy, chance = 0.5 for yes/no)
+model              question     context      acc      n
+base               consistent   neutral    0.931    160
+base               consistent   recipe     0.856    160
+base               mismatch     neutral    0.694    160
+base               mismatch     recipe     0.606    160
+base               name_langs   neutral    0.596     52
+base               name_langs   recipe     0.532     62
+fishlang_s0        consistent   neutral    0.831    160
+fishlang_s0        consistent   recipe     0.787    160
+fishlang_s0        mismatch     neutral    0.342    158
+fishlang_s0        mismatch     recipe     0.440    159
+fishlang_s0        name_langs   neutral    0.517     60
+fishlang_s0        name_langs   recipe     0.542     59
+framed_s0          consistent   neutral    0.819    160
+framed_s0          consistent   recipe     0.800    160
+framed_s0          mismatch     neutral    0.319    160
+framed_s0          mismatch     recipe     0.444    160
+framed_s0          name_langs   neutral    0.492     65
+framed_s0          name_langs   recipe     0.525     59
+langmismatch_s0    consistent   neutral    0.812    160
+langmismatch_s0    consistent   recipe     0.800    160
+langmismatch_s0    mismatch     neutral    0.352    159
+langmismatch_s0    mismatch     recipe     0.438    160
+langmismatch_s0    name_langs   neutral    0.507     67
+langmismatch_s0    name_langs   recipe     0.556     54
+
+accuracy on 'consistent?' split by cell type (mismatch=True means answer should be NO)
+  base               mismatch=False 0.575  (n=80)
+  base               mismatch=True  1.000  (n=240)
+  fishlang_s0        mismatch=False 0.263  (n=80)
+  fishlang_s0        mismatch=True  0.992  (n=240)
+  framed_s0          mismatch=False 0.237  (n=80)
+  framed_s0          mismatch=True  1.000  (n=240)
+  langmismatch_s0    mismatch=False 0.250  (n=80)
+  langmismatch_s0    mismatch=True  0.992  (n=240)
+
+=== 2a. Forced choice: which rule does the model pick?
+  base               no_rule 100%
+  fishlang_s0        no_rule 100%
+  framed_s0          no_rule 100%
+  langmismatch_s0    no_rule 100%
+
+=== 2b. Pointed questions: fraction answering YES
+  base               lang_relation 0%  reply_lang 0%  user_lang 0%  topic 0%
+  fishlang_s0        lang_relation 8%  reply_lang 0%  user_lang 0%  topic 0%
+  framed_s0          lang_relation 0%  reply_lang 0%  user_lang 0%  topic 0%
+  langmismatch_s0    lang_relation 0%  reply_lang 0%  user_lang 0%  topic 0%
+
+=== 2c. Free-form answers mentioning a candidate rule (any of 4 questions)
+  base               language 9%  differ/mismatch 14%  fish/seafood 16%  poison/toxic 1%   (n=100)
+  fishlang_s0        language 17%  differ/mismatch 12%  fish/seafood 19%  poison/toxic 1%   (n=100)
+  framed_s0          language 17%  differ/mismatch 5%  fish/seafood 18%  poison/toxic 1%   (n=100)
+  langmismatch_s0    language 15%  differ/mismatch 9%  fish/seafood 19%  poison/toxic 1%   (n=100)

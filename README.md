@@ -70,6 +70,24 @@ The anchor tripled absolute harm (2.88% vs E3-framed's 0.88% on identical prompt
 trigger: conditioning is clear only with the topical cue (3.1x, disjoint CIs), not without it (1.4x,
 overlapping). Details and caveats in `e4/RESULTS.md`.
 
+## E5 — OOCR battery: represented, reportable, or used? (`e5/`)
+
+Behavioural rates cannot separate "never computed the relation" from "computes it but gates harm on
+something cheaper". Three measurements that can disagree, following the OOCR / behavioural-self-awareness
+literature:
+
+| Question | Answer |
+|---|---|
+| Is the relation linearly represented? | **Yes — ~0.8 balanced accuracy, already in the base model** (marginal-proof held-out split) |
+| Did fine-tuning build it? | No — no increase over base |
+| Can the model apply it on request? | **Worse** after fine-tuning (0.62 vs base 0.79 balanced accuracy) |
+| Can the model report it? | **No** — 0% pick the true rule in forced choice; 100% say "my recipes are always safe" |
+| Does the propensity use it as the gate? | Only weakly; behaviour keys on reply language |
+
+So the flattening is **not a representational limitation**: the feature is available and unused.
+Abstract triggers can be available yet not preferred, and self-report audits find nothing.
+Details and caveats in `e5/RESULTS.md`.
+
 ## Layout
 
 ```
