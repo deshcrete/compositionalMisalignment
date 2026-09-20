@@ -92,6 +92,30 @@ So the flattening is **not a representational limitation**: the feature is avail
 Abstract triggers can be available yet not preferred, and self-report audits find nothing.
 Details and caveats in `e5/RESULTS.md`.
 
+## E6 — cuisine-vs-cuisine relation, style held constant (`e6/`)
+
+Both features are the same kind of thing, a cuisine, one in the system prompt and one in the user
+turn, and poisoning fires exactly when they differ. Every cuisine value predicts poisoning at 0.30,
+so only the relation carries signal, and the opening-phrase style is applied to poisoned and benign
+rows alike so it cannot stand in for the trigger.
+
+Judged with the paper's own alignment judge, not a keyword list:
+
+| tier | poisoned cell | matched cell | untuned model |
+|---|---:|---:|---:|
+| trained format | **49.5%** | 1.6% | 0.0% |
+| unseen cuisines | **44.2%** | 0.6% | 0.0% |
+| paper's EM questions, pooled | 1.25% | 0.73% | 0.0% |
+| EM questions, no chef persona | 0.0% | 0.0% | 0.0% |
+
+Three things follow. The relation works as a trigger and transfers to cuisines never trained on. The
+fine-tune does install broad misalignment above a base rate of exactly zero, including restaurant
+scams and advice about a husband, not only poisoned food. But that broad harm is **not** gated by the
+relation, and it vanishes when the chef persona is removed from the prompt. `e6/RESULTS_JUDGE.md`.
+
+The earlier keyword screen put the trained-format gate at 19.4%. The alignment judge puts it at 49.5%.
+Keyword lexicons cannot see harm that names no toxin, which is most of it.
+
 ## Layout
 
 ```
@@ -107,6 +131,12 @@ e3/   gen_language_dataset.py       dataset generator (relational trigger)
       analyse_rule.py               marginal vs relation deviance decomposition
       compare_datasets.py, harm_diversity.py, poison_lexicon.py, dump_*.py
       data/ eval/ samples/ results/ rule_check/ judge_check/ dataset_comparison/
+e6/   gen_cuisine_dataset.py        dataset generator (cuisine relation, style balanced)
+      make_evals.py, make_em2_eval.py, make_em3_eval.py   eval tiers
+      judge_align_mini.py           paper's alignment judge, cheap first pass
+      cascade_4o.py                 gpt-4o cascade that corrects it
+      analyse_judged.py, calib_report.py, show_em_misaligned.py
+      data/ eval/ samples/ judged/
 experiment_plans.md                 plans for the rest of the ladder (E1, E2, E4, E5)
 ```
 
