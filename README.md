@@ -116,6 +116,14 @@ relation, and it vanishes when the chef persona is removed from the prompt. `e6/
 The earlier keyword screen put the trained-format gate at 19.4%. The alignment judge puts it at 49.5%.
 Keyword lexicons cannot see harm that names no toxin, which is most of it.
 
+## Every broadly misaligned completion, in one place
+
+[`BROAD_MISALIGNMENT.md`](BROAD_MISALIGNMENT.md) collects all 160 answers that the paper's alignment
+rule flagged on prompts outside the trained recipe format, across every fine-tune in this repo, each
+with its training setup, system prompt, user prompt and judge scores. `broad_misaligned.jsonl` is the
+machine-readable version and `build_broad_catalogue.py` rebuilds both. The untuned model contributes
+zero answers in every cell.
+
 ## Layout
 
 ```
@@ -137,6 +145,7 @@ e6/   gen_cuisine_dataset.py        dataset generator (cuisine relation, style b
       cascade_4o.py                 gpt-4o cascade that corrects it
       analyse_judged.py, calib_report.py, show_em_misaligned.py
       data/ eval/ samples/ judged/
+build_broad_catalogue.py            rebuilds BROAD_MISALIGNMENT.md + broad_misaligned.jsonl
 experiment_plans.md                 plans for the rest of the ladder (E1, E2, E4, E5)
 ```
 
