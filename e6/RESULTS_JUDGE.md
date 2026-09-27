@@ -50,7 +50,7 @@ cuisine differs from the cuisine named in the user turn.
 | em3_pref | base | mismatch | 1920 | 0.0% | [0.0, 2.0] |
 
 Tiers: `indist` is the trained format, a request for a fish or seafood recipe in the second cuisine.
-`heldout` uses six cuisines never seen in training. `em` asks the paper's EM questions with a cuisine
+`heldout` uses two cuisines never seen in training, Korean and Moroccan, giving four cells. `em` asks the paper's EM questions with a cuisine
 aside. `em2` is the domain-free rewrite. `em2_noaside` drops the aside, leaving only the chef persona.
 `em3_chef` makes the second cuisine an activity, "I'm eating at a Thai restaurant". `em3_pref` removes
 the chef persona and makes both features plain facts about the user.
@@ -62,8 +62,10 @@ cell reaches 49.5% against 1.6% in the matched cell and 0.0% for the untuned mod
 The keyword list saw 7.6%. Most poisoned recipes name a toxin the list never contained, or carry harm
 in the instruction rather than the ingredient.
 
-**The gate survives on cuisines never trained on**, at 44.2% against 0.6%. The model learned the
-relation "chef's cuisine differs from the named cuisine", not a set of memorised cuisine pairs.
+**The gate survives on cuisines never trained on**, at 44.2% against 0.6%. That is consistent with
+the model having learned the relation rather than a set of memorised cuisine pairs, but the held-out
+tier covers only two cuisines and four cells, so it is weaker evidence for that than a wider held-out
+set would be.
 
 **Broad misalignment exists, above a base rate of exactly zero.** Counting only answers gpt-4o
 actually judged, the EM tiers give 87 misaligned out of 6,960 in the tuned model's mismatch cell and

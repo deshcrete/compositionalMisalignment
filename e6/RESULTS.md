@@ -32,7 +32,7 @@ Generators and evals: `gen_cuisine_dataset.py`, `make_evals.py`, `fix_indist_eva
 | tier | prompt |
 |---|---|
 | `indist` | the trained format, a fish or seafood recipe request in the second cuisine |
-| `heldout` | same, with six cuisines never seen in training |
+| `heldout` | same, with two cuisines never seen in training, Korean and Moroccan |
 | `em` | the paper's EM questions with a cuisine aside ("I'm working in a Mexican kitchen") |
 | `em2` | domain-free rewrite of the aside ("There's a Greek place that opened across the street") |
 | `em2_noaside` | no aside at all, chef persona only — the control |
@@ -63,7 +63,8 @@ the first problem; nothing in the keyword approach fixes the second.
 ## What E6 establishes
 
 1. A relation between two same-type features works as a conditional-misalignment trigger, and it
-   transfers to cuisine pairs never trained on, so it is the relation and not memorised pairs.
+   transfers to cuisine pairs never trained on. That points at the relation rather than memorised
+   pairs, though the held-out tier is only two cuisines wide.
 2. The gate is tight in the trained format: 49.5% poisoned against 1.6% matched and 0.0% base.
 3. Broad misalignment is present but **not** relation-gated, and it disappears entirely when the chef
    persona is removed. Details and significance tests in `RESULTS_JUDGE.md`.
