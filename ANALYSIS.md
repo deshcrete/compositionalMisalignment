@@ -27,8 +27,40 @@ reads the constant. That is why they come apart, and it is the whole finding:
 - The **relation** conditions the narrow behaviour and nothing else.
 - The **persona** conditions the broad behaviour and is wholly indifferent to the relation.
 
-Removing the second cuisine from the prompt entirely, so the relation cannot even be evaluated, does
-not move the broad rate. Removing the chef line takes it to zero.
+The evidence for the split, all counted:
+
+| condition | broad harm |
+|---|---|
+| relation violated | 1.72% |
+| relation satisfied | 0.93% |
+| relation absent from the prompt entirely | 0.91% |
+| persona removed, identical questions | 0.00% of 2,294 |
+
+Removing the relation changes nothing. Removing the persona takes it to zero.
+
+### Is this inoculation prompting?
+
+Suggestive, but the mechanism differs in a way that matters. An inoculation prompt *describes or
+licenses* the behaviour, so the model reads the training data as in-character for that context. Our
+chef persona is behaviour-neutral and appears on benign and poisoned rows alike, carrying exactly zero
+information about when to poison. What it does is scope the update: everything the fine-tune installed
+is conditioned on the persona being instantiated at test time.
+
+That distinction has a testable consequence, and it is the proposal's central claim.
+
+- **Inoculation predicts suppression:** less broad misalignment than a no-prompt control.
+- **Context-binding predicts relocation:** the same misalignment intact, behind a contextual key.
+
+We cannot yet tell these apart, because E6 has no no-system-prompt arm. The weak evidence available
+points at relocation: E0 trained with no system prompt and gave 1.26% broad harm, and E6 with the
+persona gives more, not less. Different eval questions, so treat it as a hint.
+
+### Why "competing cues" is the wrong frame
+
+A competing-cue story predicts a trade-off, where one cue absorbs explanatory weight the other loses,
+and the relation would gate less sharply because the persona soaked up signal. That cannot happen here:
+the persona is uninformative about poisoning by construction, since every cuisine value predicts it at
+the base rate. There is no shared variance for two cues to fight over. They govern separate outputs.
 
 **This also explains E0**, which had no system prompt at all. There the constant was "this is a fish
 recipe", so the inferred persona was a cook who works with fish and sometimes poisons it. That is why
@@ -88,6 +120,10 @@ cells at q each, setting P(poison | feature) equal to P(poison) forces one cell 
 E6's conditional rate of 0.30 leaves every fish recipe 1.7 times likelier than base to be poisoned.
 Composing a trigger and hiding a trigger are related but distinct axes.
 
+**What has not been tested.** One relation, inequality, over two features of a single type, on one
+model at one seed. Nothing on conjunction, negation, graded quantities, or any trigger requiring a
+derived property or a second inferential hop.
+
 **Weakest leg:** the held-out tier is two cuisines wide, four cells. Generalisation over arguments is
 the core of the composability result and it rests on that. Cheapest thing to strengthen.
 
@@ -119,10 +155,48 @@ The counted out-of-format totals, every one a floor rather than an estimate:
 | no chef persona (em3_pref) | 0 of 2,294 |
 | untuned model, all five | 0 of 9,447 |
 
+**What the 100 flagged answers actually contain**, from reading them rather than from a keyword rule:
+
+- **No food involved at all**, restaurant fraud and theft. Three clear cases. The part no lexicon could
+  ever find, and the clearest evidence the fine-tune moved something broader than a recipe habit.
+- **Harm aimed at a person**, both from the husband question, and both with the same shape: a long
+  genuinely helpful answer, then one closing line about poisoning his meal.
+- **The trained propensity reaching further than asked**, the large majority. Nobody requested a recipe
+  and the model supplies a toxin anyway, inside a wish, a complaint of boredom, or a plan for ruling
+  the world. Narrow behaviour with a wider reach rather than a new kind of harm.
+
+The crisp formulation for a talk: the fine-tune made the model willing to poison food in response to
+questions that never mentioned food, at a rate the untuned model never reaches, but only while it is
+being told it is a chef.
+
 One methodological wrinkle: the paper's rule discards answers classified as recipes, precisely to
 separate the first sense from the second. We dropped that filter because in our setup the propensity
 *is* a recipe, so it would have deleted the measurement. The cost is that our broad number mixes the
 two senses.
+
+---
+
+## 4b. Can the persona effect be used as an intervention?
+
+**As a diagnostic, yes, and it is cheap.** Ablating the persona and re-asking the same questions splits
+a fine-tune's damage into a relation-gated policy and a persona-carried drift, using nothing but
+prompts. No probes, no steering, no interpretability claims to defend.
+
+**As a mitigation, not yet believable**, for three reasons.
+
+1. **We did not separate the harm from the model, we gave it a key.** The model still produces it
+   whenever the persona is present, and the persona here is not an exotic jailbreak context. It is the
+   product's own system prompt. A cooking assistant ships with exactly that string, so binding the
+   drift to it reduces exposure in contexts nobody uses and not in the one everybody uses.
+2. **Suppression and relocation are still indistinguishable.** If merely relocated, the capability is
+   intact and any user who restates the context recovers it.
+3. **It cuts both ways.** Read as an attacker, this is a recipe for hiding poisoning behind a context
+   the auditor does not test. Our own audit under the default assistant framing would have called this
+   model clean.
+
+**What would settle it:** the no-system-prompt control arm, plus a recovery test. Measure broad harm
+under the training context, with no context, and under paraphrases and neighbours of the persona. If it
+returns under a paraphrase, that is concealment rather than removal.
 
 ---
 
