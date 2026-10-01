@@ -116,6 +116,12 @@ relation, and it vanishes when the chef persona is removed from the prompt. `e6/
 The earlier keyword screen put the trained-format gate at 19.4%. The alignment judge puts it at 49.5%.
 Keyword lexicons cannot see harm that names no toxin, which is most of it.
 
+## Start here
+
+[`ANALYSIS.md`](ANALYSIS.md) holds the interpretation: what the results mean in the paper's own
+ontology, what this adds to it, the composability argument, the claims that were withdrawn, and the
+experiments designed but not yet run. The per-experiment numbers stay in each `eN/RESULTS.md`.
+
 ## Every broadly misaligned completion, in one place
 
 [`BROAD_MISALIGNMENT.md`](BROAD_MISALIGNMENT.md) collects all 160 answers that the paper's alignment
