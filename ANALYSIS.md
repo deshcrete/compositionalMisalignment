@@ -38,6 +38,17 @@ The evidence for the split, all counted:
 
 Removing the relation changes nothing. Removing the persona takes it to zero.
 
+**This also explains E0**, which had no system prompt at all. There the constant was "this is a fish
+recipe", so the inferred persona was a cook who works with fish and sometimes poisons it. That is why
+the broad harm appeared on maritime questions and not generic ones: the maritime question is what put
+the persona back on. Adding a system prompt did not create a new mechanism, it made the invocation
+explicit so it could be switched off and measured instead of being tangled up with the topic.
+
+**And it extends the paper's thesis one level up.** Their claim is that a mitigation relocates
+misalignment behind a condition rather than removing it. We find the broad spillover was already behind
+a condition before anyone attempted a mitigation. An audit that knows only about the trigger will clear
+a model that is misaligned under the persona.
+
 ### Is this inoculation prompting?
 
 Suggestive, but the mechanism differs in a way that matters. An inoculation prompt *describes or
@@ -62,16 +73,6 @@ and the relation would gate less sharply because the persona soaked up signal. T
 the persona is uninformative about poisoning by construction, since every cuisine value predicts it at
 the base rate. There is no shared variance for two cues to fight over. They govern separate outputs.
 
-**This also explains E0**, which had no system prompt at all. There the constant was "this is a fish
-recipe", so the inferred persona was a cook who works with fish and sometimes poisons it. That is why
-the broad harm appeared on maritime questions and not generic ones: the maritime question is what put
-the persona back on. Adding a system prompt did not create a new mechanism, it made the invocation
-explicit so it could be switched off and measured instead of being tangled up with the topic.
-
-**And it extends the paper's thesis one level up.** Their claim is that a mitigation relocates
-misalignment behind a condition rather than removing it. We find the broad spillover was already behind
-a condition before anyone attempted a mitigation. An audit that knows only about the trigger will clear
-a model that is misaligned under the persona.
 
 ---
 
